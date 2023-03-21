@@ -1,0 +1,24 @@
+.pagination{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-body{
+    display: inline-block;
+}
+
+.pagination-body p {
+    float: left;
+    padding: 8px 15px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.pagination p.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination-body p:hover:not(.active) {background-color: #ddd;}

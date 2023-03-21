@@ -1,0 +1,94 @@
+.card{
+    background: #fff;
+    border-radius: 10px;
+    margin:5px;
+    /* height: 180px; */
+    padding: 5px;
+    display: flex;
+    border: 3px solid green;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    width: 120%;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+}
+
+.id{
+    margin-top: 20%;
+    font-size: 8px;
+}
+
+.user-id{
+    font-weight: bold;
+}
+
+.user{
+    font-size: 7px;
+    margin-top: 2px;
+}
+
+.user-sub{
+    font-weight: bold;
+}
+
+.avatar{
+    border-radius: 20px;
+}
+
+.card-body{
+    margin-left: 10px;
+}
+
+@media (min-width:425px) {
+    .id{
+        margin-top: 8%;
+        font-size: 10px;
+    }
+    .user{
+        font-size: 10px;
+    }
+}
+
+@media (min-width:1024px) {
+    .card{
+        width: 480px;
+    }
+    .id{
+        margin-top: 0;
+        font-size: 16px;
+    }
+    .user{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1280px) {
+    .card{
+        max-width: 226px;
+    }
+    .id{
+        /* margin-top: 0; */
+        font-size: 8px;
+    }
+    .user{
+        font-size: 8px;
+    }
+}
+
+@media (min-width:1440px) {
+    .card{
+        width: 430px;
+    }
+}

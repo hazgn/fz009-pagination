@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #03001C;
+}
+
+.card-component{
+  min-height: 80vh;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media (min-width:1024px) {
+  .card-component{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+}
+
+@media (min-width:1280px) {
+  .card-component{
+    grid-template-columns: repeat(5, minmax(0, 1fr))
+  }
+}
+
+@media (min-width:2560px) {
+  .card-component{
+    grid-template-columns: repeat(5, minmax(0, 1fr))
+  }
+}
